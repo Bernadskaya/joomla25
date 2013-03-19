@@ -1,0 +1,161 @@
+/**
+ * @version		$Id: admin.style.css 2211 2012-11-20 14:40:34Z lefteris.kavadas $
+ * @package		K2mart
+ * @author	    JoomlaWorks http://www.joomlaworks.net
+ * @copyright	Copyright (c) 2006 - 2012 JoomlaWorks Ltd. All rights reserved.
+ * @license		http://www.joomlaworks.net/license
+ */
+
+/* --- Tabs --- */
+div.k2martTabs {
+	clear: both;
+	padding: 10px 0;
+}
+ul.k2martTabsNavigation {
+	margin: 0 10px;
+	padding: 0;
+	text-align: left;
+	white-space: nowrap;
+}
+ul.k2martTabsNavigation li {
+	list-style: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+ul.k2martTabsNavigation li a {
+	border: 1px solid #E0E0E0;
+	padding: 3px 6px;
+	margin: 0;
+	background-color: #F0F0F0;
+	font-size: 14px;
+	text-decoration: none;
+	color: #666;
+	font-weight: normal;
+}
+ul.k2martTabsNavigation li a:hover {
+	text-decoration: none;
+	background-color: #f6f6f6;
+}
+ul.k2martTabsNavigation li.ui-tabs-selected a {
+	background-color: #fff;
+	color: #222;
+	border-bottom: 1px solid #fff;
+}
+div.k2martTabsContent {
+	border: 1px solid #E0E0E0;
+	padding: 8px;
+	margin-top: 3px;
+}
+ul.k2martTabsNavigation li.ui-tabs-selected a:hover {
+	background-color: #fff;
+}
+div.k2martTabsContent {
+	background: #fff;
+}
+.ui-tabs-hide {
+	display: none;
+}
+/* --- Form elements  --- */
+.k2martFormRow {
+	padding: 8px 0;
+}
+.k2martFormRow:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#k2martForm img {
+	float: none;
+}
+#k2martForm select {
+	width: 200px;
+}
+#product_available_date_img, #k2martAvailabilityImage img {
+	float: none;
+	vertical-align: top;
+}
+.vmForm label {
+	display: inline-block;
+	width: 130px;
+	min-width: 130px;
+	max-width: 130px;
+	white-space: normal;
+	color: #222222;
+	font-weight: bold;
+	vertical-align: top;
+}
+.vmForm label.k2martAutoWidth {
+	display: block;
+	float: none;
+	width: 90%;
+	max-width: 90%;
+}
+span.currencySymbol {
+	display: inline-block;
+	margin: 5px 0;
+}
+.priceOverrideOptions input, .priceOverrideOptions label {
+	font-weight: normal;
+	float: none;
+}
+#use_desired_price, label.k2martInlineLabel {
+	display: inline;
+	float: none;
+	font-weight: normal;
+}
+#k2martAvailabilityImgPreview img {
+	border: 4px solid #DDDDDD;
+	display: block;
+	margin-top: 10px;
+	padding: 0;
+}
+#k2martForm #k2martAssignField {
+	width: 200px;
+	background: #fff;
+	float: left;
+	height: 18px;
+	margin: 0;
+	padding-left: 3px;
+	margin-right: 10px;
+}
+.k2martClr {
+	float: none;
+	clear: both;
+}
+.vmSeperator {
+	border: none;
+	border-top: 1px dotted #ccc;
+	clear: both;
+}
+/* --- Virtuemart icons  --- */
+.vmicon {
+	display: block;
+	width: 16px;
+	height: 16px;
+}
+.vmicon-16-default-off {
+	background: url(../images/no-cart.png) 0 0 no-repeat;
+}
+.vmicon-16-default {
+	background: url(../images/cart.png) 0 0 no-repeat;
+}
+.vmicon-16-remove {
+	cursor: pointer;
+	background: url(../images/remove.png) 0 0 no-repeat;
+}
+.vmicon-16-info {
+	display: inline-block;
+	background: url(../images/icon-16-info.png) 0 0 no-repeat;
+}
+#custom_customPlugins .vmicon {
+	display: block;
+	float: right;
+	margin: 4px;
+}
+/* Chosen fix */
+.chzn-search input {
+	float: none;
+}

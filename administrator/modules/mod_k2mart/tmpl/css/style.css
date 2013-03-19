@@ -1,0 +1,14 @@
+/**
+ * @version		$Id: style.css 2211 2012-11-20 14:40:34Z lefteris.kavadas $
+ * @package		K2mart
+ * @author    JoomlaWorks http://www.joomlaworks.net
+ * @copyright	Copyright (c) 2006 - 2012 JoomlaWorks Ltd. All rights reserved.
+ * @license		http://www.joomlaworks.net/license
+ */
+
+.clr {clear:both;height:0;line-height:0;display:block;float:none;}
+
+#k2martModule {clear:both;margin:-1px 0 8px 0;padding:8px 0;position:relative;z-index:8;}
+	div#k2martTitle {position:absolute;right:4px;top:8px;margin:0;padding:0;z-index:9;}
+	div#k2martTitle a {display:block;clear:both;float:none;background:url(../images/k2mart_logo_75x18.png) no-repeat 50% 50%;width:75px;height:18px;padding:0;margin:0;}
+	div#k2martTitle a span {display:none;}

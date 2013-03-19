@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="k2" method="upgrade">
+	<name>plg_k2_gallery</name>
+	<author>Bernadskaya</author>
+	<creationDate>March, 2013</creationDate>
+	<copyright>Bernadskaya</copyright>
+	<description>PLG_K2_GALLERY_DESCRIPTION</description>
+	<files>
+		<filename plugin="k2gallery">k2gallery.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	
+</extension>

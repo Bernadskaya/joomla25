@@ -1,0 +1,96 @@
+
+div.k2importfield {
+	border-bottom: 1px dotted;
+	clear: both;
+	font-size: 120%;
+	height:20px;
+	padding-top:2px;
+}
+
+div.k2importtitle {
+	display: inline-block;
+	width: 215px;
+}
+
+div.k2importselect {
+	display: inline-block;
+	font-size: 120%;
+	vertical-align: top;
+}
+
+div.k2attachments div.k2importselect {
+	display: block;
+	vertical-align: bottom;
+}
+
+div.k2attachments
+{
+	display: inline-block;
+	left:-17px;
+position:relative;
+}
+
+select.k2importfield
+{
+	vertical-align:text-top;
+}
+div.k2optionscount {
+	display: inline;
+}
+
+form.k2import button {
+	clear: both;
+	float: left;
+}
+
+#system-message li {
+	padding-left: 30px;
+}
+
+span.editlinktip
+{
+	padding-left:20px;
+}
+
+#k2importfield_attachment, #k2importfield_attachment_title , #k2importfield_attachment_title_attribute
+{
+height: 100%;
+		
+}
+
+div.k2import_message
+{
+	display: list-item;
+	    font-size: 120%;
+    margin-left: 10px;
+}
+
+div.k2import_rows_left
+{
+	padding-bottom: 10px;
+}
+
+#k2import_selectfile_form, #k2import_selectfile_td
+{
+text-align: left;	
+}
+
+#k2import_selectfile_form_div, #k2import_selectfile_form_submit_div
+{
+display: inline-block;
+vertical-align: top;
+}
+
+
+
+
+#k2import_selectfile_uploaded_file
+{
+	 display: block;
+	}
+	
+
+.k2import_icon-32_export
+{
+background-image: url("../icons/import.png");
+}

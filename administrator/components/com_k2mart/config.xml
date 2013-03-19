@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset name="K2MART_ITEM_LAYOUT_SETTINGS">
+        <field name="itemProductName" type="radio" default="0" label="K2MART_PRODUCT_NAME">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductSku" type="radio" default="1" label="K2MART_PRODUCT_SKU">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductUrl" type="radio" default="1" label="K2MART_PRODUCT_URL">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductVendor" type="radio" default="1" label="K2MART_PRODUCT_VENDOR">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductManufacturer" type="radio" default="1" label="K2MART_PRODUCT_MANUFACTURER">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductPrice" type="radio" default="1" label="K2MART_PRODUCT_PRICE_IF_APPLICABLE">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductPackaging" type="radio" default="1" label="K2MART_PRODUCT_PACKAGING">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductBox" type="radio" default="1" label="K2MART_PRODUCT_BOX_INFO">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductDimensions" type="radio" default="1" label="K2MART_PRODUCT_DIMENSIONS">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductWeight" type="radio" default="1" label="K2MART_PRODUCT_WEIGHT">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductAvailability" type="radio" default="1" label="K2MART_PRODUCT_AVAILABILITY_IF_APPLICABLE">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductShipping" type="radio" default="1" label="K2MART_PRODUCT_SHIPPING_INFO">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductRating" type="radio" default="1" label="K2MART_PRODUCT_RATING">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductReviews" type="radio" default="1" label="K2MART_PRODUCT_REVIEWS">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductFields" type="radio" default="1" label="K2MART_PRODUCT_FIELDS">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductAddToCart" type="radio" default="1" label="K2MART_ADD_TO_CART_BUTTON_IF_APPLICABLE">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemCartProductFields" type="radio" default="1" label="K2MART_CART_PRODUCT_FIELDS_ONLY_IF_ADD_TO_CART_BUTTON_IS_ENABLED">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemProductQuantity" type="radio" default="1" label="K2MART_QUANTITY_BOX_ONLY_IF_ADD_TO_CART_BUTTON_IS_ENABLED">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemAskQuestionButton" type="radio" default="1" label="K2MART_ASK_QUESTION_BUTTON">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="itemLayoutDisabled" type="radio" default="0" label="K2MART_DISABLE_THIS_LAYOUT" description="K2MART_DISABLE_THIS_LAYOUT_DESCRIPTION">
+            <option value="0">K2MART_NO</option>
+            <option value="1">K2MART_YES</option>
+        </field>
+    </fieldset>
+    <fieldset name="K2MART_LISTING_LAYOUT_SETTINGS">
+        <field name="listingProductName" type="radio" default="0" label="K2MART_PRODUCT_NAME">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingProductSku" type="radio" default="1" label="K2MART_PRODUCT_SKU">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingProductUrl" type="radio" default="1" label="K2MART_PRODUCT_URL">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingProductVendor" type="radio" default="1" label="K2MART_PRODUCT_VENDOR">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingProductManufacturer" type="radio" default="1" label="K2MART_PRODUCT_MANUFACTURER">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingProductPrice" type="radio" default="1" label="K2MART_PRODUCT_PRICE_IF_APPLICABLE">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingProductPackaging" type="radio" default="1" label="K2MART_PRODUCT_PACKAGING">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingProductBox" type="radio" default="1" label="K2MART_PRODUCT_BOX_INFO">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingProductDimensions" type="radio" default="1" label="K2MART_PRODUCT_DIMENSIONS">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingProductWeight" type="radio" default="1" label="K2MART_PRODUCT_WEIGHT">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingProductAvailability" type="radio" default="1" label="K2MART_PRODUCT_AVAILABILITY_IF_APPLICABLE">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingProductShipping" type="radio" default="1" label="K2MART_PRODUCT_SHIPPING_INFO">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingProductRating" type="radio" default="1" label="K2MART_PRODUCT_RATING">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingProductFields" type="radio" default="1" label="K2MART_PRODUCT_FIELDS">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingProductAddToCart" type="radio" default="1" label="K2MART_ADD_TO_CART_BUTTON_IF_APPLICABLE">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingCartProductFields" type="radio" default="1" label="K2MART_CART_PRODUCT_FIELDS_ONLY_IF_ADD_TO_CART_BUTTON_IS_ENABLED">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingProductQuantity" type="radio" default="1" label="K2MART_QUANTITY_BOX_ONLY_IF_ADD_TO_CART_BUTTON_IS_ENABLED">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingAskQuestionButton" type="radio" default="0" label="K2MART_ASK_QUESTION_BUTTON">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="listingLayoutDisabled" type="radio" default="0" label="K2MART_DISABLE_THIS_LAYOUT" description="K2MART_DISABLE_THIS_LAYOUT_DESCRIPTION">
+            <option value="0">K2MART_NO</option>
+            <option value="1">K2MART_YES</option>
+        </field>
+    </fieldset>
+    <fieldset name="K2MART_MODULE_LAYOUT_SETTINGS">
+        <field name="moduleProductName" type="radio" default="0" label="K2MART_PRODUCT_NAME">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleProductSku" type="radio" default="1" label="K2MART_PRODUCT_SKU">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleProductUrl" type="radio" default="1" label="K2MART_PRODUCT_URL">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleProductVendor" type="radio" default="1" label="K2MART_PRODUCT_VENDOR">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleProductManufacturer" type="radio" default="1" label="K2MART_PRODUCT_MANUFACTURER">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleProductPrice" type="radio" default="1" label="K2MART_PRODUCT_PRICE_IF_APPLICABLE">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleProductPackaging" type="radio" default="1" label="K2MART_PRODUCT_PACKAGING">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleProductBox" type="radio" default="1" label="K2MART_PRODUCT_BOX_INFO">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleProductDimensions" type="radio" default="1" label="K2MART_PRODUCT_DIMENSIONS">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleProductWeight" type="radio" default="1" label="K2MART_PRODUCT_WEIGHT">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleProductAvailability" type="radio" default="1" label="K2MART_PRODUCT_AVAILABILITY_IF_APPLICABLE">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleProductShipping" type="radio" default="1" label="K2MART_PRODUCT_SHIPPING_INFO">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleProductRating" type="radio" default="1" label="K2MART_PRODUCT_RATING">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleProductFields" type="radio" default="1" label="K2MART_PRODUCT_FIELDS">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleProductAddToCart" type="radio" default="1" label="K2MART_ADD_TO_CART_BUTTON_IF_APPLICABLE">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleCartProductFields" type="radio" default="1" label="K2MART_CART_PRODUCT_FIELDS_ONLY_IF_ADD_TO_CART_BUTTON_IS_ENABLED">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleProductQuantity" type="radio" default="1" label="K2MART_QUANTITY_BOX_ONLY_IF_ADD_TO_CART_BUTTON_IS_ENABLED">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleAskQuestionButton" type="radio" default="0" label="K2MART_ASK_QUESTION_BUTTON">
+            <option value="0">K2MART_HIDE</option>
+            <option value="1">K2MART_SHOW</option>
+        </field>
+        <field name="moduleLayoutDisabled" type="radio" default="0" label="K2MART_DISABLE_THIS_LAYOUT" description="K2MART_DISABLE_THIS_LAYOUT_DESCRIPTION">
+            <option value="0">K2MART_NO</option>
+            <option value="1">K2MART_YES</option>
+        </field>
+    </fieldset>
+    <fieldset name="K2MART_SYSTEM_SETTINGS" addfieldpath="/administrator/components/com_k2mart/elements/">
+        <field name="catalogRoot" type="category" label="K2MART_CATALOG_ROOT_CATEGORY" description="K2MART_CATALOG_ROOT_CATEGORY_DESCRIPTION" default=""/>
+        <field name="template" type="template" default="template1" label="K2MART_TEMPLATE" />
+        <field name="membersOnlyCart" type="radio" default="0" label="K2MART_CART_ONLY_FOR_REGISTERED_USERS" description="K2MART_CART_ONLY_FOR_REGISTERED_USERS_DESCRIPTION">
+            <option value="0">K2MART_NO</option>
+            <option value="1">K2MART_YES</option>
+        </field>
+        <field name="categoriesFilter" type="radio" default="1" label="K2MART_SHOW_CATEGORIES_FILTER" description="K2MART_SHOW_CATEGORIES_FILTER_DESCRIPTION">
+            <option value="0">K2MART_NO</option>
+            <option value="1">K2MART_YES</option>
+        </field>
+        <field name="manufacturersFilter" type="radio" default="1" label="K2MART_SHOW_MANUFACTURERS_FILTER" description="K2MART_SHOW_MANUFACTURERS_FILTER_DESCRIPTION">
+            <option value="0">K2MART_NO</option>
+            <option value="1">K2MART_YES</option>
+        </field>
+        <field name="sortingFilter" type="radio" default="1" label="K2MART_SHOW_SORTING_FILTER" description="K2MART_SHOW_SORTING_FILTER_DESCRIPTION">
+            <option value="0">K2MART_NO</option>
+            <option value="1">K2MART_YES</option>
+        </field>
+        <field name="ajax" type="radio" default="1" label="K2MART_ENABLE_AJAX" description="K2MART_ENABLE_AJAX_DESCRIPTION">
+            <option value="0">K2MART_NO</option>
+            <option value="1">K2MART_YES</option>
+        </field>
+        <field name="categoriesList" type="radio" default="0" label="K2MART_SHOW_VIRTUEMART_CATEGORIES_LIST_ON_K2MART_FORM">
+            <option value="0">K2MART_NO</option>
+            <option value="1">K2MART_YES</option>
+        </field>
+        <field name="advancedTab" type="radio" default="0" label="K2MART_SHOW_ADVANCED_TAB_ON_K2MART_FORM">
+            <option value="0">K2MART_NO</option>
+            <option value="1">K2MART_YES</option>
+        </field>
+    </fieldset>
+    <fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
+        <field name="rules" type="rules" label="JCONFIG_PERMISSIONS_LABEL" class="inputbox" validate="rules" filter="rules" component="com_k2mart" section="component"/>
+    </fieldset>
+</config>

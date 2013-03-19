@@ -1,0 +1,638 @@
+/**
+ * @version		$Id: style.css 2211 2012-11-20 14:40:34Z lefteris.kavadas $
+ * @package		K2mart
+ * @author	    JoomlaWorks http://www.joomlaworks.net
+ * @copyright	Copyright (c) 2006 - 2012 JoomlaWorks Ltd. All rights reserved.
+ * @license		http://www.joomlaworks.net/license
+ */
+
+/* Template colors legend
+ * Base color: #E1E1E1
+ * Secondary color (custom cart fields and review form): #FAF8F8
+ * Text color: #2D2D2D
+ * Label color: #959595
+ * Link color: #537DAE
+ * Button color: #7F635A
+ * Button gradient start color: #FFBC30
+ * Button gradient end color: #FFA030
+ * Price color: #E35551
+ * Input color: #2D2D2D;
+ * Input shadow color : #A8B7C1
+ * */
+
+/* Template specific styles and classes */
+.k2mart {
+	color: #2D2D2D;
+}
+.k2mart a, .k2mart a:link, .k2mart a:visited, .k2mart a:hover, .k2mart a:focus, .k2mart a:active {
+	color: #537DAE;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: transparent;
+}
+.k2mart a:hover {
+	text-decoration: underline;
+}
+.k2mart ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.k2mart table {
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+	background: #FDFCFC;
+}
+.k2mart table tr, .k2mart table tr td {
+	border: none;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	border: 1px solid #E1E1E1;
+}
+.k2mart table tr td {
+	padding: 12px 12px 10px 8px;
+}
+.k2mart img {
+	border: 1px solid #E1E1E1;
+	vertical-align: top;
+}
+.k2mart .k2martHeading {
+	display: block;
+	color: #959595;
+	padding: 0 10px;
+	margin: 0;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #E1E1E1;
+}
+.k2mart .k2martFieldLabel, .k2mart label {
+	color: #959595;
+	font-weight: bold;
+}
+.k2mart .k2martFieldLabelTip {
+	display: block;
+	font-weight: normal;
+	font-style: italic;
+}
+.k2mart .k2martFieldValue {
+}
+.k2mart .k2martFieldValueDescription {
+	display: block;
+	clear: both;
+}
+.k2mart .k2martInput {
+	font-weight: normal;
+	padding: 4px;
+	margin: 0;
+	border: 1px solid #E1E1E1;
+	border-radius: 2px;
+	color: #2D2D2D;
+	box-shadow: 0 1px 1px #A8B7C1 inset;
+	background: #FFFFFF;
+}
+.k2mart input.k2martInput {
+	text-align: center;
+}
+.k2mart .k2martButton {
+	cursor: pointer;
+	background-color: #FFBC30 !important;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFBC30), to(#FFA030));
+	background-image: -webkit-linear-gradient(top, #FFBC30, #FFA030);
+	background-image: -moz-linear-gradient(top, #FFBC30, #FFA030);
+	background-image: -ms-linear-gradient(top, #FFBC30, #FFA030);
+	background-image: -o-linear-gradient(top, #FFBC30, #FFA030);
+	border: 1px solid #FFA030;
+	border-radius: 4px;
+	color: #7F635A !important;
+	font-weight: bold;
+	padding: 4px 12px;
+	text-align: center;
+	display: block;
+}
+.k2mart .k2martButton:hover, .k2mart .k2martButton:focus {
+	background-image:none;
+	background-color: #FFA030 !important;
+	text-decoration: none !important;
+}
+.k2martClearFix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.k2martHidden {
+	display: none;
+}
+/* Add to cart block */
+.k2martAddToCart {
+	background-color: #E1E1E1;
+	border: 4px solid #E1E1E1;
+	border-radius: 4px 4px 0 4px;
+}
+/* Product header block (listings only) */
+.k2mart a.k2martProductDetailsToggler {
+	background: url("../images/arrow_down.png") no-repeat center right transparent;
+	margin-left: 10px;
+	padding-right: 16px;
+}
+.k2mart a.k2martProductDetailsToggler.open {
+	background: url("../images/arrow_up.png") no-repeat center right transparent;
+}
+.k2mart table.k2martListProductHeader {
+	background-color: #FFFFFF;
+	color: #959595;
+	border-bottom: 4px solid #E1E1E1;
+}
+.k2mart table.k2martListProductHeader td {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.k2mart table.k2martListProductHeader .k2martProductSKU {
+	font-weight: normal;
+}
+.k2mart table.k2martListProductHeader .k2martProductRatingCell {
+	width: 1%;
+	white-space: nowrap;
+	text-align: right;
+}
+.k2mart table.k2martListProductHeader .k2martProductRating {
+	padding-left: 22px;
+	background: url('../images/user.png') left center no-repeat;
+	font-weight: bold;
+}
+.k2mart .k2martListProductHeaderContainer .k2martProductDetails {
+	display: none;
+}
+.k2mart .k2martListProductHeaderContainer .k2martProductDetails table td {
+	padding-top: 8px;
+	padding-bottom: 2px;
+}
+/* Product standard fields */
+.k2mart table.k2martFields {
+	border-bottom: 4px solid #E1E1E1;
+}
+/* Product custom cart fields */
+.k2mart table.k2martCustomCartFields {
+	background: #FAF8F8;
+}
+.k2mart table.k2martCustomCartFields span.k2martFieldLabel {
+	display: block;
+	color: #2D2D2D;
+}
+.k2mart table.k2martCustomCartFields span.k2martFieldLabelTip {
+	display: block;
+}
+.k2mart table.k2martCustomCartFields label, .k2mart table.k2martCustomCartFields input {
+	color: #2D2D2D;
+	display: block;
+	float: left;
+	font-weight: normal;
+	margin: 4px;
+}
+.k2mart table.k2martCustomCartFields label {
+	clear: right;
+}
+.k2mart table.k2martCustomCartFields input {
+	clear: left;
+}
+/* Product add to cart fields */
+.k2mart table.k2martAddToCartFields {
+	background: #FAF8F8;
+}
+.k2mart table.k2martAddToCartFields td {
+	text-align: right;
+	vertical-align: middle;
+	padding: 6px 12px;
+}
+.k2mart table.k2martAddToCartFields .k2martFieldLabel {
+	display: block;
+}
+.k2mart table.k2martAddToCartFields td.k2martAvailability {
+	text-align: left;
+	padding-left: 48px;
+	background: url('../images/availability.png') 7px center no-repeat #FFFFFF;
+}
+.k2mart table.k2martAddToCartFields td.k2martShipping {
+	text-align: left;
+	padding-left: 48px;
+	background: url('../images/shipping.png') 7px center no-repeat #FFFFFF;
+}
+.k2mart .k2martAvailabilityValue {
+	font-weight: bold;
+}
+.k2mart .k2martShippingValue {
+	font-weight: bold;
+}
+.k2mart .k2martShippingValue img {
+	border: none;
+}
+.k2mart input.quantity-input {
+	width: 26px;
+	height: 10px;
+	margin: 0 8px 0 10px;
+}
+.k2mart input.quantity-controls {
+	cursor: pointer;
+	width: 14px;
+	height: 14px;
+	border: none;
+	position: relative;
+	top: 2px;
+}
+.k2mart input.quantity-plus {
+	background: url('../images/plus_button.png') 0 0 no-repeat;
+}
+.k2mart input.quantity-minus {
+	background: url('../images/minus_button.png') 0 0 no-repeat;
+}
+.k2mart .k2martPrice {
+	display: inline-block;
+	font-size: 26px;
+	font-weight: bold;
+	color: #E35551;
+}
+.k2mart a.k2martExtendedPriceToggler {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin: 0 0 0 10px;
+	background: url('../images/info.png') 0 0 no-repeat;
+	cursor: pointer;
+}
+.k2mart a.k2martExtendedPriceToggler:hover, a.k2martExtendedPriceToggler:focus, a.k2martExtendedPriceToggler:active {
+	background: url('../images/info.png') 0 0 no-repeat;
+}
+.k2mart .k2martExtendedPrice {
+	width: 300px;
+	position: absolute;
+	font-weight: bold;
+	z-index: 10;
+	border: 1px solid #F1F4F6;
+	border-bottom: none;
+	border-radius: 4px;
+	box-shadow: -1px 1px 3px #BFC3C6;
+	padding: 0;
+	text-align: left;
+}
+.k2mart .k2martExtendedPrice div {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #F1F4F6;
+	color: #2D2D2D;
+	padding: 10px 12px 4px 12px;
+}
+.k2mart .k2martExtendedPrice span {
+	float: right;
+	clear: right;
+	padding-left: 30px;
+	color: #959595;
+}
+.k2mart .k2martAddToCartBar span.k2martAddToCartButton {
+	background-color: #E1E1E1;
+	padding: 3px 4px 5px 5px;
+	border-radius: 0 0 4px 4px;
+	float: right;
+}
+/* Product tabs (item view only)*/
+#k2martTabs {
+	background-color: #E1E1E1;
+	border: 4px solid #E1E1E1;
+	border-radius: 4px;
+	margin-top: 24px;
+}
+#k2martTabs table {
+	background: #FFFFFF;
+}
+.k2mart #k2martTabs table tr, .k2mart #k2martTabs table td {
+	border: none;
+}
+.k2mart #k2martTabs table tr {
+	border-top: 1px solid #E1E1E1;
+}
+#k2martTabs a.k2martAskQuestionButton {
+	float: right;
+	margin-top: 12px;
+	margin-right: 10px;
+}
+#k2martTabs ul.k2martTabsNavigation {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#k2martTabs ul.k2martTabsNavigation li {
+	display: block;
+	float: left;
+	margin: 0 4px 0 0;
+}
+#k2martTabs ul.k2martTabsNavigation li  a, #k2martTabs ul.k2martTabsNavigation li  a:link, #k2martTabs ul.k2martTabsNavigation li a:visited {
+	display: block;
+	cursor: pointer;
+	background: #FFA030;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFBC30), to(#FFA030));
+	background-image: -webkit-linear-gradient(top, #FFBC30, #FFA030);
+	background-image: -moz-linear-gradient(top, #FFBC30, #FFA030);
+	background-image: -ms-linear-gradient(top, #FFBC30, #FFA030);
+	background-image: -o-linear-gradient(top, #FFBC30, #FFA030);
+	border-radius: 4px 4px 0 0;
+	color: #7F635A;
+	font-weight: bold;
+	padding: 0 8px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	position: relative;
+	bottom: -1px;
+}
+#k2martTabs ul.k2martTabsNavigation li  a:hover, #k2martTabs ul.k2martTabsNavigation li  a.active, #k2martTabs ul.k2martTabsNavigation li  a:focus {
+	background-image: none;
+	background: #FFFFFF;
+	font-weight: bold;
+	color: #959595;
+	border-radius: 4px 4px 0 0;
+	text-decoration: none;
+}
+#k2martTabs div.k2martTabContent {
+	background: #FFFFFF;
+}
+/* Product reviews (item view only) */
+#k2martReviews {
+	background: #FFFFFF;
+}
+#k2martReviews .k2martReview {
+	padding: 12px 0 16px 0;
+	border-bottom: 2px solid #E1E1E1;
+}
+#k2martReviews .k2martReview .k2martReviewInfo {
+	padding: 0 14px 2px 14px;
+	border-bottom: 1px solid #E1E1E1;
+	font-weight: bold;
+}
+#k2martReviews .k2martReview .k2martReviewInfo .k2martReviewUser {
+	padding: 0 6px 0 22px;
+	background: url('../images/user.png') left center no-repeat;
+	border-right: 1px solid #E1E1E1;
+}
+#k2martReviews .k2martReview .k2martRatingValue {
+	display: none;
+}
+#k2martReviews .k2martRatingStars {
+	display: inline-block;
+	position: relative;
+	width: 70px;
+	height: 12px;
+}
+#k2martReviews .k2martTotalRating {
+	display: inline-block;
+	width: 100%;
+	height: 12px;
+	background: url('../images/rating.png') 0 100% repeat-x;
+	position: absolute;
+	left: 0;
+	cursor: pointer;
+}
+#k2martReviews .k2martCurrentRating {
+	display: inline-block;
+	height: 12px;
+	background: url('../images/rating.png') 0 0 repeat-x;
+	position: absolute;
+	left: 0;
+	z-index: 1;
+	cursor: pointer;
+}
+#k2martReviews .k2martReview .k2martReviewInfo .k2martReviewDate {
+	float: right;
+	color: #959595;
+	font-weight: normal;
+}
+#k2martReviews .k2martReview blockquote {
+	color: #2D2D2D;
+	margin: 0;
+	padding: 14px 14px 0 14px;
+}
+#k2martReviews .k2martNote {
+	display: block;
+	padding: 10px 14px;
+}
+#k2martReviews .k2martReviewFormContainer {
+	background-color: #FAF8F8;
+}
+#k2martReviews table.k2martReviewFormRating {
+	background: #FAF8F8;
+}
+#k2martReviews table.k2martReviewFormRating tr {
+	border: none;
+	border-top: 1px solid #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
+}
+#k2martReviews table.k2martReviewFormRating td {
+	text-align: center;
+	border: none;
+	border-left: 1px solid #E1E1E1;
+	padding: 12px 0;
+}
+#k2martReviews table.k2martReviewFormRating td:first {
+	border-left: none;
+}
+#k2martReviews .k2martReviewFormHeading {
+	padding: 20px 14px;
+}
+#k2martReviews .k2martReviewFormHeading h5.k2martReviewFormHeadingTitle {
+	display: block;
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	font-size: 14px;
+}
+#k2martReviews .k2martReviewFormHeading span.k2martReviewFormHeadingHint {
+	display: block;
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	font-size: 12px;
+}
+#k2martReviews .k2martReviewComment {
+	padding: 0 14px 10px 14px;
+}
+#k2martReviews .k2martReviewFormHeading span.k2martReviewFormCounter {
+	float: right;
+}
+#k2martReviews  textarea#comment {
+	width: 98%;
+	margin: 0;
+	margin-bottom: 10px;
+	text-align: left;
+}
+#k2martReviews input#k2martReviewSubmitButton {
+	float: right;
+}
+/* Filters */
+#k2mart a#k2martFiltersToggler {
+	cursor: pointer;
+	float: right;
+	background: #F0EFEF;
+	border: 1px solid #EBEBEB;
+	border-radius: 4px;
+	padding: 0;
+	color: #707070;
+	font-weight: bold;
+	text-decoration: none;
+}
+#k2mart a#k2martFiltersToggler:link, #k2mart a#k2martFiltersToggler:hover, #k2mart a#k2martFiltersToggler:active, #k2mart a#k2martFiltersToggler:focus, #k2mart a#k2martFiltersToggler:hover {
+	background: #F0EFEF;
+	color: #707070;
+	text-decoration: none;
+}
+#k2martFiltersToggler .k2martFiltersTogglerText {
+	display: inline-block;
+	padding: 6px 12px;
+	border-right: 1px solid #E5E2E2;
+}
+#k2martFiltersToggler .k2martFiltersTogglerIcon {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	padding: 0 12px 0 10px;
+	background: url('../images/toggler.png') center 0 no-repeat;
+}
+#k2martFiltersToggler.k2martFiltersTogglerIconExpanded .k2martFiltersTogglerIcon {
+	background-position: center 100%;
+}
+#k2martFilters {
+	clear: both;
+	position: relative;
+	top: -2px;
+	z-index: 10;
+	background-color: #ECECEC;
+	border: 1px solid #CCCBCB;
+	border-top: none;
+	border-right: none;
+	border-radius: 4px 0px 4px 4px;
+	padding: 26px 16px 16px 14px
+}
+#k2martFilters .k2martFiltersDescription {
+	color: #636363;
+	font-weight: normal;
+	margin-bottom: 26px;
+}
+#k2martFilters #k2martFiltersTable {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+#k2martFilters #k2martFiltersTable tr {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+#k2martFilters #k2martFiltersTable td {
+	padding: 6px 0;
+	margin: 0;
+	border: none;
+	background: none;
+}
+#k2martFilters #k2martFiltersTable td.k2martFilterLabel {
+	padding-right: 16px;
+}
+#k2martFilters #k2martFiltersTable td.k2martFilterLabel label {
+	color: #757575;
+	font-weight: bold;
+}
+#k2martFilters div.chzn-container {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+#k2martFilters div.chzn-container ul.chzn-choices {
+	margin: 0;
+	padding: 2px 0;
+	background-image: none;
+	border: none;
+	border-top: 1px solid #D7D7D7;
+	border-radius: 4px;
+}
+#k2martFilters div.chzn-container-active ul.chzn-choices {
+	box-shadow: none;
+}
+#k2martFilters div.chzn-container ul.chzn-choices li {
+	height: 9px;
+	line-height: 9px;
+	margin: 1px;
+	padding: 5px 24px 7px 10px;
+}
+#k2martFilters div.chzn-container ul.chzn-choices li.search-choice {
+	background-color: #B5CCDA;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CADEEB), to(#B5CCDA));
+	background-image: -webkit-linear-gradient(top, #CADEEB, #B5CCDA);
+	background-image: -moz-linear-gradient(top, #CADEEB, #B5CCDA);
+	background-image: -ms-linear-gradient(top, #CADEEB, #B5CCDA);
+	background-image: -o-linear-gradient(top, #CADEEB, #B5CCDA);
+	border: 1px solid #B5CCDA;
+	border-radius: 4px;
+	color: #5683B7;
+	font-weight: bold;
+	box-shadow: none;
+}
+#k2martFilters div.chzn-container ul.chzn-choices a.search-choice-close {
+	background: url("../images/chosen-sprite.png") no-repeat scroll right top transparent;
+}
+#k2martFilters div.chzn-container ul.chzn-choices a.search-choice-close:focus, #k2martFilters ul.chzn-choices a.search-choice-close:hover {
+	background: url("../images/chosen-sprite.png") no-repeat scroll right -11px transparent;
+}
+#k2martFilters div.chzn-container ul.chzn-results {
+	margin: -1px 0 0;
+	padding: 0;
+}
+#k2martFilters div.chzn-container ul.chzn-results li {
+	margin: 0;
+	padding: 5px 6px;
+	line-height: normal;
+}
+#k2martFilters div.chzn-container ul.chzn-choices li.search-field {
+	padding: 0 5px;
+	margin: 1px;
+	height: 24px;
+	line-height: 24px;
+	border: none;
+}
+#k2martFilters div.chzn-container ul.chzn-choices li.search-field input {
+	margin: 0;
+	padding: 0;
+}
+#k2martFilters div.chzn-container-single a.chzn-single {
+	background-color: #E2E2E2;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FEFEFE), to(#E2E2E2));
+	background-image: -webkit-linear-gradient(top, #FEFEFE, #E2E2E2);
+	background-image: -moz-linear-gradient(top, #FEFEFE, #E2E2E2);
+	background-image: -ms-linear-gradient(top, #FEFEFE, #E2E2E2);
+	background-image: -o-linear-gradient(top, #FEFEFE, #E2E2E2);
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	box-shadow: none;
+	color: #636363;
+	height: 26px;
+	line-height: 26px;
+}
+#k2martFilters div.chzn-container-single a.chzn-single div {
+	right: 8px;
+}
+#k2martFilters div.chzn-container-single a.chzn-single div b {
+	background: url("../images/chosen-sprite.png") no-repeat scroll 0 0 transparent;
+}
+#k2martFilters div.chzn-container-active a.chzn-single-with-drop div b {
+	background-position: -18px 1px;
+}
+#k2martFilters #k2martOrdering, #k2martFilters #k2martOrderingDir {
+	width: 50%;
+}
+#k2martFilters #k2martCategories, #k2martFilters #k2martManufacturers {
+	width: 100%;
+}

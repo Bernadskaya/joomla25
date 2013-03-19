@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>com_k2mart</name>
+	<author>JoomlaWorks</author>
+	<creationDate>November 20th, 2012</creationDate>
+	<copyright>Copyright (c) 2006 - 2012 JoomlaWorks Ltd. All rights reserved.</copyright>
+	<authorEmail>contact@joomlaworks.net</authorEmail>
+	<authorUrl>www.joomlaworks.net</authorUrl>
+	<version>2.0.3</version>
+	<license>http://www.joomlaworks.net/license</license>
+	<description>Thank you for installing K2mart by JoomlaWorks</description>
+	<installfile>install.k2mart.php</installfile>
+	<uninstallfile>uninstall.k2mart.php</uninstallfile>
+	<scriptfile>script.k2mart.php</scriptfile>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.mysql.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.mysql.sql</file>
+		</sql>
+	</uninstall>
+	<administration>
+		<menu img="components/com_k2mart/images/icon.png">K2mart</menu>
+		<files folder="administrator/components/com_k2mart">
+			<folder>controllers</folder>
+			<folder>css</folder>
+			<folder>elements</folder>
+			<folder>helpers</folder>
+			<folder>images</folder>
+			<folder>js</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+			<filename>access.xml</filename>
+			<filename>admin.k2mart.php</filename>
+			<filename>config.xml</filename>
+			<filename>install.mysql.sql</filename>
+			<filename>uninstall.mysql.sql</filename>
+		</files>
+		<languages folder="administrator/language/en-GB">
+			<language tag="en-GB">en-GB.com_k2mart.ini</language>
+			<language tag="en-GB">en-GB.com_k2mart.sys.ini</language>
+			<language tag="en-GB">en-GB.mod_k2mart.ini</language>
+			<language tag="en-GB">en-GB.mod_k2mart.sys.ini</language>
+			<language tag="en-GB">en-GB.plg_k2_k2mart.ini</language>
+			<language tag="en-GB">en-GB.plg_k2_k2mart.sys.ini</language>
+			<language tag="en-GB">en-GB.plg_system_k2mart.sys.ini</language>
+		</languages>
+	</administration>
+	<config>
+		<fields>
+			<fieldset>
+				<field name="itemProductName" default="0"/>
+				<field name="itemProductSku" default="1"/>
+				<field name="itemProductUrl" default="1"/>
+				<field name="itemProductVendor" default="1"/>
+				<field name="itemProductManufacturer" default="1"/>
+				<field name="itemProductPrice" default="1"/>
+				<field name="itemProductPackaging" default="1"/>
+				<field name="itemProductBox" default="1"/>
+				<field name="itemProductDimensions" default="1"/>
+				<field name="itemProductWeight" default="1"/>
+				<field name="itemProductAvailability" default="1"/>
+				<field name="itemProductShipping" default="1"/>
+				<field name="itemProductRating" default="1"/>
+				<field name="itemProductReviews" default="1"/>
+				<field name="itemProductFields" default="1"/>
+				<field name="itemProductAddToCart" default="1"/>
+				<field name="itemCartProductFields" default="1"/>
+				<field name="itemProductQuantity" default="1"/>
+				<field name="itemAskQuestionButton" default="1"/>
+				<field name="itemLayoutDisabled" default="0"/>
+				<field name="listingProductName" default="0"/>
+				<field name="listingProductSku" default="1"/>
+				<field name="listingProductUrl" default="1"/>
+				<field name="listingProductVendor" default="1"/>
+				<field name="listingProductManufacturer" default="1"/>
+				<field name="listingProductPrice" default="1"/>
+				<field name="listingProductPackaging" default="0"/>
+				<field name="listingProductBox" default="0"/>
+				<field name="listingProductDimensions" default="1"/>
+				<field name="listingProductWeight" default="1"/>
+				<field name="listingProductAvailability" default="1"/>
+				<field name="listingProductShipping" default="1"/>
+				<field name="listingProductRating" default="1"/>
+				<field name="listingProductFields" default="1"/>
+				<field name="listingProductAddToCart" default="1"/>
+				<field name="listingCartProductFields" default="1"/>
+				<field name="listingProductQuantity" default="1"/>
+				<field name="listingAskQuestionButton" default="0"/>
+				<field name="listingLayoutDisabled" default="0"/>
+				<field name="moduleProductName" default="0"/>
+				<field name="moduleProductSku" default="0"/>
+				<field name="moduleProductUrl" default="0"/>
+				<field name="moduleProductVendor" default="1"/>
+				<field name="moduleProductManufacturer" default="0"/>
+				<field name="moduleProductPrice" default="1"/>
+				<field name="moduleProductPackaging" default="0"/>
+				<field name="moduleProductBox" default="0"/>
+				<field name="moduleProductDimensions" default="0"/>
+				<field name="moduleProductWeight" default="0"/>
+				<field name="moduleProductAvailability" default="0"/>
+				<field name="moduleProductShipping" default="0"/>
+				<field name="moduleProductRating" default="1"/>
+				<field name="moduleProductFields" default="0"/>
+				<field name="moduleProductAddToCart" default="1"/>
+				<field name="moduleCartProductFields" default="0"/>
+				<field name="moduleProductQuantity" default="0"/>
+				<field name="moduleAskQuestionButton" default="0"/>
+				<field name="moduleLayoutDisabled" default="0"/>
+				<field name="catalogRoot" default="0"/>
+				<field name="membersOnlyCart" default="0"/>
+				<field name="categoriesFilter" default="1"/>
+				<field name="manufacturersFilter" default="1"/>
+				<field name="sortingFilter" default="1"/>
+				<field name="ajax" default="1"/>
+				<field name="categoriesList" default="0"/>
+				<field name="advancedTab" default="0"/>
+			</fieldset>
+		</fields>
+	</config>
+	<modules>
+		<module module="mod_k2mart" client="administrator"/>
+	</modules>
+	<plugins>
+		<plugin plugin="k2mart" group="k2"/>
+		<plugin plugin="k2mart" group="system"/>
+	</plugins>
+</extension>

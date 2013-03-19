@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+	<name>K2 Import</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>2012-09-17</creationDate>
+	<author>Artur Neumann</author>
+	<authorEmail>info@individual-it.net</authorEmail>
+	<authorUrl>http://individual-it.net</authorUrl>
+	<copyright></copyright>
+	<license>GPL</license>
+	<!--  The version string is recorded in the components table -->
+	<version>0.9_stable</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>A component for import/export data to/from K2</description>
+ 
+
+
+	<administration>
+		<!-- Administration Menu Section -->
+		
+		  <menu>COM_K2IMPORT</menu>  
+ 
+		
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+			<!-- Site Main File Copy Section -->
+			
+			<filename>views/selectcategory/view.html.php</filename>
+			<filename>views/selectcategory/tmpl/default.php</filename>
+			<filename>views/index.html</filename>
+			<filename>views/associate/view.html.php</filename>
+			<filename>views/associate/tmpl/default.php</filename>
+			<filename>views/importajaxwrapper/view.html.php</filename>
+			<filename>views/importajaxwrapper/tmpl/default.php</filename>
+			<filename>views/k2import/index.html</filename>
+			<filename>views/k2import/view.html.php</filename>
+			<filename>views/k2import/tmpl/index.html</filename>
+			<filename>views/k2import/tmpl/default.php</filename>
+			<filename>views/k2import/tmpl/filebrowser.php</filename>
+			<filename>views/export/index.html</filename>
+			<filename>views/export/view.raw.php</filename>
+			<filename>views/export/tmpl/index.html</filename>
+			<filename>views/export/tmpl/default.php</filename>
+			<filename>views/import/index.html</filename>
+			<filename>views/import/view.json.php</filename>
+			<filename>icons/text-csv.png</filename>
+			<filename>icons/application-zip.png</filename>
+			<filename>icons/import.png</filename>
+			<filename>icons/folder.png</filename>
+			<filename>models/index.html</filename>
+			<filename>models/k2import.php</filename>
+			<filename>models/category.php</filename>
+			<filename>models/categories.php</filename>
+			<filename>tables/k2attachment.php</filename>
+			<filename>index.html</filename>
+			<filename>helper.php</filename>
+			<filename>button/upload.php</filename>
+			<filename>button/export.php</filename>
+			<filename>button/instructions.php</filename>
+			<filename>k2import.php</filename>
+			<filename>css/k2import.css</filename>
+			<filename>js/k2import.js</filename>
+			<filename>js/k2import_1_5.js</filename>
+			<filename>js/k2import_1_6.js</filename>
+			<filename>js/k2import.mootools.js</filename>
+			<filename>controllers/index.html</filename>
+			<filename>controllers/k2import.php</filename>
+			<filename>controller.php</filename>
+		</files>
+		
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB/en-GB.com_k2import.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_k2import.menu.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_k2import.sys.ini</language>
+			<language tag="pt-BR">language/pt-BR/pt-BR.com_k2import.ini</language>
+			<language tag="pt-BR">language/pt-BR/pt-BR.com_k2import.menu.ini</language>
+			<language tag="pt-BR">language/pt-BR/pt-BR.com_k2import.sys.ini</language>			
+		</languages> 
+	</administration>
+</install>

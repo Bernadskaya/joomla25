@@ -1,0 +1,9 @@
+/**
+ * @version		$Id: style_ie7.css 2211 2012-11-20 14:40:34Z lefteris.kavadas $
+ * @package		K2mart
+ * @author    	JoomlaWorks http://www.joomlaworks.net
+ * @copyright	Copyright (c) 2006 - 2012 JoomlaWorks Ltd. All rights reserved.
+ * @license		http://www.joomlaworks.net/license
+ */
+
+ul.simpleTabsNavigation { margin:0 10px; padding:8px 0 0 0; text-align:left; }

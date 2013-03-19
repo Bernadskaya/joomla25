@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+    <name>COM_profile</name>
+    <administration>
+        <submenu>
+            <menu view="profilies" link="option=com_profile">Profilies</menu>
+            <menu view="bills" link="option=com_bill">Bills</menu>
+        </submenu>
+    </administration>
+   </extension>

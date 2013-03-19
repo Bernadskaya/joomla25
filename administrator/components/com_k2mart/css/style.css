@@ -1,0 +1,64 @@
+/**
+ * @version		$Id: style.css 2211 2012-11-20 14:40:34Z lefteris.kavadas $
+ * @package		K2mart
+ * @author      JoomlaWorks http://www.joomlaworks.net
+ * @copyright	Copyright (c) 2006 - 2012 JoomlaWorks Ltd. All rights reserved.
+ * @license		http://www.joomlaworks.net/license
+ */
+
+/* Generic */
+a:active,a:focus { outline:0; }
+.clr { clear:both; height:0; line-height:0; display:block; float:none; padding:0; margin:0; border:0; }
+dl.tabs dt.closed { border-bottom:1px solid #ccc!important; }
+dl.tabs dt.open { background:#fff!important; border-bottom:1px solid #fff!important; }
+
+/* K2mart */
+.icon-48-k2mart { background:url(../images/logo.png) no-repeat 0 0; width:200px; height:48px;}
+.icon-48-k2mart h2 {display:none;}
+
+/* Dashboard */
+#k2martLeftColumn { width:58%; float:left; }
+#k2martRightColumn { width:40%; float:right; }
+
+/* SimpleTabs: default style */
+div.simpleTabs { }
+ul.simpleTabsNavigation { margin:0 10px; padding:0; text-align:left; }
+ul.simpleTabsNavigation li { list-style:none; display:inline; margin:0; padding:0; }
+ul.simpleTabsNavigation li a { border:1px solid #E0E0E0; padding:3px 6px; background:#F0F0F0; font-size:13px; text-decoration:none; }
+ul.simpleTabsNavigation li a:hover { text-decoration:none; background-color:#F6F6F6; }
+ul.simpleTabsNavigation li a.current { background:#fff; color:#222; border-bottom:1px solid #fff; }
+div.simpleTabsContent { border:1px solid #E0E0E0; border-bottom:none; padding:5px 15px 15px; margin-top:2px; display:none; }
+div#k2martLeftColumn div.simpleTabsContent { margin-top:3px; }
+div.simpleTabsContent.currentTab { display:block; padding-top:8px; background:#fff; }
+div.simpleTabsContent span { color:#666; }
+div.simpleTabsContent ul { display:inline; margin:0; padding:0; }
+div.simpleTabsContent ul li { list-style:none; display:inline; border-right:1px solid #ccc; padding:0; margin:0; }
+div.simpleTabsContent ul li a { padding:0 4px; color:#999; font-size:12px; }
+div.simpleTabsContent ul li a:hover,
+div.simpleTabsContent ul li.active a { color:#0B55C4; }
+div.simpleTabsContent ul li.lastItem { border:none; }
+
+/* K2mart Graphs */
+#k2martChart { background:#fff; border:1px solid #E0E0E0; border-top:none; height:420px; overflow:hidden; }
+
+/* Migrator */
+.k2martMigrator fieldset { background-color:#F9F9F9; }
+.k2martMigratorLoader { display:none; position:absolute; top:260px; left:40%; background:url(../images/migratorLoader.gif) center 10px no-repeat; text-align:center; background-color:#000; color:#fff; font-weight:bold; font-size:12px; padding:40px 20px 10px; opacity:0.7; -moz-border-radius:10px; -webkit-border-radius:10px; }
+.k2martMigratorField { padding:12px; border-bottom:1px dotted #CCCCCC; }
+.k2martMigratorField label { margin-right:4px; font-weight:bold; }
+.k2martMigratorField .k2martNote { display:block; padding:4px 0 0; font-style:italic; color:#777; }
+#k2martMigrator {
+    text-align:center;
+}
+#k2martStatus {
+    text-align:center;
+    padding-top: 180px;
+    background:url(../images/loader.gif) center top no-repeat;
+}
+
+/* Information */
+#k2martInfoPage { width:100%; }
+#k2martInfoPage td { vertical-align:top; }
+
+/* Footer */
+#k2martAdminFooter { margin-top:20px; text-align:center; }
